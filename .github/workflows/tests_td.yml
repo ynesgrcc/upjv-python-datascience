@@ -61,6 +61,7 @@ jobs:
             echo "SKIP=1" >> $GITHUB_ENV
           fi
 
+
       - name: Lancer les tests
         if: env.SKIP != '1'
         run: python run_tests.py "${TD}_enonce.ipynb" expected.json
