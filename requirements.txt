@@ -1,8 +1,0 @@
-numpy 
-pandas 
-matplotlib 
-seaborn
-Message : Add requirements file 
-
-scikit-learn 
-Message : Add scikit-learn to requirements 
