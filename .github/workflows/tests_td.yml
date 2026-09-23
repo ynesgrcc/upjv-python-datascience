@@ -64,3 +64,4 @@ jobs:
       - name: Lancer les tests
         if: env.SKIP != '1'
         run: python run_tests.py "${TD}_enonce.ipynb" expected.json
+Message de commit : Add GitHub Actions workflow
